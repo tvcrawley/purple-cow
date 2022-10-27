@@ -6,8 +6,9 @@ function App() {
   const [hitCount, setHitCount] = useState(0);
   return (
     <div className="App">
+      <h1 className="App-header">Project Purple Cow</h1>
       <Button setHitCount={setHitCount} />
-      <p>The hit count is {hitCount? hitCount : "..."}.</p>
+      <p className="Hit-display">The hit count is {hitCount? hitCount : "..."}.</p>
     </div>
   );
 }

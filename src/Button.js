@@ -1,3 +1,5 @@
+import './Button.css';
+
 function Button({setHitCount}) {
   const handleButtonClick = () => {
     fetch("https://api.countapi.xyz/hit/mysite.com/1ccb732e-b55a-4404-ad3f-0f99c02fe44e")

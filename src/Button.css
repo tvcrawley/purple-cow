@@ -1,0 +1,15 @@
+.Button {
+  background-color: white;
+  border-color: purple;
+  border-radius: 5px;
+  border-style: none;
+  color: purple;
+  padding: 5px 10px;
+}
+
+.Button:hover {
+  background-color: purple;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+}
