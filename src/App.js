@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Button setHitCount={setHitCount} />
-      <p>The hit count is {hitCount}.</p>
+      <p>The hit count is {hitCount? hitCount : "..."}.</p>
     </div>
   );
 }
