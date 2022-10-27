@@ -15,3 +15,11 @@ This port can be reconfigured by changing the PORT line in the `package.json` to
 > "start": "PORT=3000 react-scripts start",
 
 After updating the port, restart the server and navigate to the appropriate localhost port number in the browser.
+
+## Future Updates
+- Add additional styling
+    - Incorporate a css framework
+- Include a Dockerfile
+
+## Assumptions
+- Knowledge of Docker configuration
